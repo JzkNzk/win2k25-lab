@@ -20,3 +20,6 @@ Restart your machine **after** completing the initial configuration like setting
 
 ## Once the VM is restarted check your ipconfig to make sure it s connected to our domain
 <img width="1111" height="678" alt="image" src="https://github.com/user-attachments/assets/2cb90ec3-8689-44a0-87aa-e298191bd046" />
+
+## We also need to check if we can lookup our domain
+<img width="1111" height="624" alt="image" src="https://github.com/user-attachments/assets/1afbaa9d-8e6a-4602-b33c-9c50d83d1f52" />

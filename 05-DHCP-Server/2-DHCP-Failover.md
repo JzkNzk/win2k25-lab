@@ -78,6 +78,28 @@ Check your IP configuration. Now the *DHCP Server* field shows IP of our second 
 
 <img width="1110" height="621" alt="image" src="https://github.com/user-attachments/assets/94b45bc5-02b7-470b-9e87-bca9cff822a4" />
 
+## Validation trough PowerShell
+
+Useful commands:
+
+- Get-DhcpServerv4Failover - Display DHCP failover relationships
+- Get-DhcpServerv4Scope - Display configured IPv4 scopes
+- Get-DhcpServerv4Lease -ScopeId 192.168.234.0 - Display active DHCP leases
+- Get-DhcpServerInDC - Display authorized DHCP servers in Active Directory
+
+<img width="1114" height="627" alt="image" src="https://github.com/user-attachments/assets/1ebbd57d-2fb5-4b00-9fd5-dace87e35d09" />
+
+<img width="1114" height="627" alt="image" src="https://github.com/user-attachments/assets/d35836da-b711-4580-a867-0be122893213" />
+
+<img width="1108" height="625" alt="image" src="https://github.com/user-attachments/assets/84482079-30af-428c-9c40-7714e88b6998" />
+
+<img width="1114" height="625" alt="image" src="https://github.com/user-attachments/assets/b27da855-1020-4fa2-9bc1-1f90a8611778" />
+
+
+
+
+
+
 
 
 

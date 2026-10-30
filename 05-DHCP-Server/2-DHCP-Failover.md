@@ -1,4 +1,4 @@
-# Configuring DHCP Failover (DHCP Cluster) on Windows Server 2025
+# Configuring DHCP Failover on Windows Server 2025
 
 ## Setting up second DHCP server
 

@@ -82,10 +82,10 @@ Check your IP configuration. Now the *DHCP Server* field shows IP of our second 
 
 Useful commands:
 
-- Get-DhcpServerv4Failover - Display DHCP failover relationships
-- Get-DhcpServerv4Scope - Display configured IPv4 scopes
-- Get-DhcpServerv4Lease -ScopeId 192.168.234.0 - Display active DHCP leases
-- Get-DhcpServerInDC - Display authorized DHCP servers in Active Directory
+- `Get-DhcpServerv4Failover` - Display DHCP failover relationships
+- `Get-DhcpServerv4Scope` - Display configured IPv4 scopes
+- `Get-DhcpServerv4Lease -ScopeId 192.168.234.0` - Display active DHCP leases
+- `Get-DhcpServerInDC` - Display authorized DHCP servers in Active Directory
 
 <img width="1114" height="627" alt="image" src="https://github.com/user-attachments/assets/1ebbd57d-2fb5-4b00-9fd5-dace87e35d09" />
 

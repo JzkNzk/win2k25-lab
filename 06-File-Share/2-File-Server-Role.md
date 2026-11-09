@@ -68,6 +68,29 @@ Lastly, HR user cannot access the folder at all.
 
 <img width="1125" height="591" alt="image" src="https://github.com/user-attachments/assets/776e08e4-0c70-4649-89d5-4f8e05aa8132" />
 
+## Configuring Access-Based Enumeration
+
+To make sure ABE works as intended, create a new folders in the new share. In this example we will create a `IT` folder and `Sales` folder inside the new share.
+
+The goal is to make these two folders visible only for their 'owners', meaning IT group should only see their `IT` folder and the `Sales` folder will be hidden for them. The same goes for Sales but with `Sales` folder as visible and `IT` folder as hidden.
+
+In the `IT` folder share settings, disable inheritance, remove Sales group and give IT users R, W, X access. Do the same for `Sales` folder, removing IT group and giving Sales user R, W, X access.
+
+<img width="1126" height="592" alt="image" src="https://github.com/user-attachments/assets/e4bb93e4-9620-4f37-963c-801624910871" />
+
+<img width="363" height="481" alt="image" src="https://github.com/user-attachments/assets/c2e4a371-3dbd-4404-990d-7bb8b2a6e9e6" />
+
+<img width="360" height="479" alt="image" src="https://github.com/user-attachments/assets/36bd4bff-0534-4373-895f-373fc3dc9a28" />
+
+---
+
+Go back to Windows 11 client and log-in as Sales user or IT user. In the new share, you can see only the corresponding user folder. 
+
+<img width="951" height="590" alt="image" src="https://github.com/user-attachments/assets/dd695284-69c7-4742-bda9-85c960bce5e8" />
+
+<img width="1121" height="589" alt="image" src="https://github.com/user-attachments/assets/0d958508-df0e-4ebc-b18e-76f1de4cd589" />
+
+
 
 
 

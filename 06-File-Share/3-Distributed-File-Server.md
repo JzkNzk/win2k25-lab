@@ -1,5 +1,23 @@
 # Configuring Distributed File Server on Windows Server 2025
 
+## Goals
+
+The goal of this lab is to learn how to configure a Distributed File System (DFS) on Windows Server 2025 using DFS Namespaces and DFS Replication.
+
+By completing this lab, you will learn how to:
+- Install DFS Namespaces and DFS Replication roles on two Windows Servers.
+- Create and configure a DFS Namespace using DFS Management.
+- Configure a shared folder within the DFS Namespace.
+- Add shared folder targets hosted on both servers.
+- Configure a DFS Replication group for the shared folders.
+- Select replication members and configure the replication topology.
+- Understand the purpose of the primary replication member.
+- Configure replication schedules and bandwidth limits.
+- Verify the DFS Replication configuration in DFS Management.
+- Test file replication between two servers using a Windows 11 client.
+
+At the end of this lab, you will understand how DFS Namespaces provide a unified path to shared resources and how DFS Replication keeps files synchronized between multiple servers.
+
 ## Installing DFS on Windows Server
 
 On your Windows Server, install DFS Namespaces and DFS Replication roles. Do this on both of your servers.
